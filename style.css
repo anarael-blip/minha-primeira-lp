@@ -1,18 +1,94 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-height: 100vh;
-    height: 100vh;
+    background-color:   rgb(243, 122, 228);
+
 }
 
-img {
-width: 55vw;
-height: 30vw;
+nav {
+    display: flex;
+    height: 100px;
+    width: 100vw;
+    background-color: rgb(244, 99, 186);
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+h1{
+    
+    width: 12rem;
+    background-color: rgb(233, 20, 176);
+    align-content: end;
+    justify-content: horizontal;
+}
+
+.saas{
+    color: rgb(244, 117, 206);
+    
+}
+
+#foto {
+    width: 100px;
+    height: 100px;
+}
+
+#inicio{
+    width: 12rem;
+    height: 35px;
+    background-color: rgb(118, 222, 241) ;
+    align-content: left;
+    justify-content: horizontal;
+      border: 2px, solid rgb(233, 131, 238);
+}
+
+#funcao{
+    width: 12rem;
+    height: 35px;
+    background-color: rgb(101, 189, 231);
+    align-content: left;
+    justify-content: horizontal;
+    border: 2px, solid rgb(241, 117, 175);
+}
+
+#preco{
+    width: 12rem;
+       height: 35px;
+    background-color: rgb(112, 191, 236);
+    align-content: left;
+    justify-content: horizontal;
+      border: 2px, solid rgb(255, 142, 212);
+}
+
+#entra{
+    width: 12rem;
+       height: 35px;
+    background-color: rgb(104, 189, 238);
+    align-content: left;
+    justify-content: horizontal;
+      border: 2px, solid rgb(245, 119, 205);
+}
+
+button {
+    height: 50px;
+    width: 12rem;
+    background-color: rgb(224, 77, 177);
+}
+li {
+    list-style: none;
+
+}
+
+#dropdown li{
+    position: absolute;
+    visibility: hidden;
+    color: rgb(184, 63, 130);
+}
+
+#dropdown:hover {
+  width: 10rem;
+  
 }
