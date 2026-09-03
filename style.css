@@ -9,6 +9,7 @@ body {
 
 }
 
+
 nav {
     display: flex;
     height: 100px;
@@ -21,13 +22,13 @@ nav {
 h1{
     
     width: 12rem;
-    background-color: rgb(255, 161, 231);
+    background-color: rgb(249, 66, 194);
     align-content: end;
     justify-content: horizontal;
 }
 
 .saas{
-    color: rgb(244, 117, 206);
+    color: rgb(0, 0, 0);
     
 }
 
@@ -99,11 +100,22 @@ button {
     justify-content: horizontal;
       border: 2px, solid rgb(245, 119, 205);   
 }
+main{
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    height: 300;
+
+    width: 100vw;
+    background-color: #e869cf;
+    width: 1300;
+
+}
 
 
 footer {
 
-    background-color: #2d2d2d;
+    background-color: #e74dc6;
 
     margin: center;
 
@@ -191,7 +203,7 @@ footer {
 
     padding: 0px;
 
-    border-top: 1px solid #444;
+    border-top: 1px solid #f56fd3;
 
 color: #aaa;
 
@@ -199,6 +211,13 @@ color: #aaa;
 
 
 }
+
+.h4 {
+    
+    width: 12rem;
+    background-color: rgb(249, 66, 194);
+    align-content: end;
+    justify-content: horizontal;}
 
 
 
