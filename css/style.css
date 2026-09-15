@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-color:   rgb(228, 103, 213);
+    background-color: rgb(228, 103, 213);
 
 }
 
@@ -19,17 +19,17 @@ nav {
     font-size: 1.2rem;
 }
 
-h1{
-    
+h1 {
+
     width: 12rem;
     background-color: rgb(249, 66, 194);
     align-content: end;
     justify-content: horizontal;
 }
 
-.saas{
+.saas {
     color: rgb(0, 0, 0);
-    
+
 }
 
 #foto {
@@ -37,16 +37,16 @@ h1{
     height: 100px;
 }
 
-#inicio{
+#inicio {
     width: 12rem;
     height: 35px;
-    background-color: hwb(0 100% 0%) ;
+    background-color: hwb(0 100% 0%);
     align-content: left;
     justify-content: horizontal;
-      border: 2px, solid rgb(233, 131, 238);
+    border: 2px, solid rgb(233, 131, 238);
 }
 
-#funcao{
+#funcao {
     width: 12rem;
     height: 35px;
     background-color: rgb(255, 255, 255);
@@ -55,52 +55,55 @@ h1{
     border: 2px, solid rgb(241, 117, 175);
 }
 
-#preco{
+#preco {
     width: 12rem;
-       height: 35px;
+    height: 35px;
     background-color: rgb(240, 240, 240);
     align-content: left;
     justify-content: horizontal;
-      border: 2px, solid rgb(255, 142, 212);
+    border: 2px, solid rgb(255, 142, 212);
 }
 
-#entra{
+#entra {
     width: 12rem;
-       height: 35px;
+    height: 35px;
     background-color: rgb(255, 255, 255);
     align-content: left;
     justify-content: horizontal;
-      border: 2px, solid rgb(245, 119, 205);
+    border: 2px, solid rgb(245, 119, 205);
 }
-#botao{
 
-        width: 12rem;
-       height: 35px;
+#botao {
+
+    width: 12rem;
+    height: 35px;
     background-color: rgb(255, 255, 255);
     align-content: left;
     justify-content: horizontal;
-      border: 2px, solid rgb(245, 119, 205);
+    border: 2px, solid rgb(245, 119, 205);
 }
 
 button {
-    height: 50px;
+    height: 35px;
     width: 12rem;
-    background-color: rgb(224, 77, 177);
+    background-color: rgb(255, 253, 254);
 }
 
-#dropdown li{
-    color: rgb(184, 63, 130);
+#dropdown li {
+    color: rgb(252, 89, 179);
     list-style: none;
 }
-#dropdown{
-     width: 12rem;
-       height: 80px;
+
+#dropdown {
+    width: 12rem;
+    height: 80px;
     background-color: rgb(255, 255, 255);
     align-content: left;
     justify-content: horizontal;
-      border: 2px, solid rgb(245, 119, 205);   
+    border: 2px, solid rgb(255, 149, 222);
 }
-main{
+
+main {
     display: flex;
     justify-content: baseline;
     align-items: baseline;
@@ -205,7 +208,7 @@ footer {
 
     border-top: 1px solid #f56fd3;
 
-color: #aaa;
+    color: #aaa;
 
     font-size: 0px;
 
@@ -213,12 +216,9 @@ color: #aaa;
 }
 
 .h4 {
-    
+
     width: 12rem;
     background-color: rgb(249, 66, 194);
     align-content: end;
-    justify-content: horizontal;}
-
-
-
-
+    justify-content: horizontal;
+}
